@@ -1,0 +1,18 @@
+{
+    "expo": {
+        "name": "HealthScan360",
+        "slug": "healthscan360-mobile",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "scheme": "healthscan360",
+        "platforms": [
+            "ios",
+            "android",
+            "web"
+        ],
+        "newArchEnabled": true,
+        "web": {
+            "bundler": "metro"
+        }
+    }
+}

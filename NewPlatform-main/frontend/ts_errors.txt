@@ -1,0 +1,39 @@
+﻿clinician/ClinicianAuthWrapper.tsx(28,61): error TS2322: Type '{ onLoginSuccess: () => void; onBackToUser: () => void; route: RouteProp<ClinicianAuthStackParamList, "ClinicianOnboarding">; navigation: any; }' is not assignable to type 'IntrinsicAttributes & Props'.
+  Property 'onLoginSuccess' does not exist on type 'IntrinsicAttributes & Props'.
+clinician/ClinicianDashboardScreen.tsx(124,72): error TS7006: Parameter 'w' implicitly has an 'any' type.
+clinician/ClinicianMainWrapper.tsx(34,51): error TS2322: Type 'FC<Props>' is not assignable to type 'ScreenComponentType<ClinicianMainStackParamList, string> | undefined'.
+  Type 'FunctionComponent<Props>' is not assignable to type 'FunctionComponent<{}>'.
+    Types of parameters 'props' and 'props' are incompatible.
+      Type '{}' is missing the following properties from type 'Props': navigation, route
+clinician/ClinicianPlaceholderScreen.tsx(32,5): error TS2322: Type '"ClinicianSchedule"' is not assignable to type 'ClinicianRoute'.
+clinician/ClinicianPlaceholderScreen.tsx(38,5): error TS2322: Type '"ClinicianAppointments"' is not assignable to type 'ClinicianRoute'.
+clinician/ClinicianPlaceholderScreen.tsx(44,5): error TS2322: Type '"ClinicianPatients"' is not assignable to type 'ClinicianRoute'.
+clinician/ClinicianPlaceholderScreen.tsx(50,5): error TS2322: Type '"ClinicianPayments"' is not assignable to type 'ClinicianRoute'.
+clinician/ClinicianPlaceholderScreen.tsx(56,5): error TS2322: Type '"ClinicianMessages"' is not assignable to type 'ClinicianRoute'.
+clinician/ClinicianPlaceholderScreen.tsx(62,5): error TS2322: Type '"ClinicianProducts"' is not assignable to type 'ClinicianRoute'.
+clinician/ClinicianPlaceholderScreen.tsx(68,5): error TS2322: Type '"ClinicianSettings"' is not assignable to type 'ClinicianRoute'.
+clinician/ClinicianSessionsScreen.tsx(24,10): error TS2305: Module '"@/services/clinicianApi"' has no exported member 'ActiveSession'.
+clinician/ClinicianSessionsScreen.tsx(36,5): error TS2339: Property 'sessions' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSessionsScreen.tsx(37,5): error TS2339: Property 'loadSessions' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSessionsScreen.tsx(38,5): error TS2339: Property 'terminateSession' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSessionsScreen.tsx(39,5): error TS2339: Property 'logoutAll' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSessionsScreen.tsx(40,5): error TS2339: Property 'logout' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSessionsScreen.tsx(41,5): error TS2339: Property 'sessionWarningVisible' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSessionsScreen.tsx(42,5): error TS2339: Property 'showSessionWarning' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSessionsScreen.tsx(43,5): error TS2339: Property 'hideSessionWarning' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSessionsScreen.tsx(44,5): error TS2339: Property 'lastActivity' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSessionsScreen.tsx(45,5): error TS2339: Property 'recordActivity' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSessionsScreen.tsx(190,24): error TS7006: Parameter 'session' implicitly has an 'any' type.
+clinician/ClinicianSettingsScreen.tsx(39,22): error TS2339: Property 'logout' does not exist on type 'ClinicianAuthState'.
+clinician/ClinicianSettingsScreen.tsx(114,62): error TS7006: Parameter 'w' implicitly has an 'any' type.
+clinicianadmin/AddClinicScreen.tsx(1115,5): error TS2345: Argument of type '{ container: { flex: number; backgroundColor: string; }; content: { flex: number; }; contentContainer: { padding: number; paddingBottom: number; }; header: { flexDirection: "row"; alignItems: "center"; marginBottom: number; }; ... 36 more ...; submitButtonText: { ...; }; }' is not assignable to parameter of type '{ container: { flex: number; backgroundColor: string; }; content: { flex: number; }; contentContainer: { padding: number; paddingBottom: number; }; header: { flexDirection: "row"; alignItems: "center"; marginBottom: number; }; ... 36 more ...; submitButtonText: { ...; }; } & NamedStyles<...>'.
+  Property 'input' is incompatible with index signature.
+    Object literal may only specify known properties, and 'outlineStyle' does not exist in type 'ViewStyle | TextStyle | ImageStyle'.
+clinicianadmin/AddClinicScreen.tsx(1337,5): error TS2345: Argument of type '{ box: { flexDirection: "row"; alignItems: "center"; backgroundColor: string; borderRadius: number; borderWidth: number; borderColor: string; minHeight: number; paddingHorizontal: number; paddingTop: number; paddingBottom: number; position: "relative"; }; ... 19 more ...; emptyText: { ...; }; }' is not assignable to parameter of type '{ box: { flexDirection: "row"; alignItems: "center"; backgroundColor: string; borderRadius: number; borderWidth: number; borderColor: string; minHeight: number; paddingHorizontal: number; paddingTop: number; paddingBottom: number; position: "relative"; }; ... 19 more ...; emptyText: { ...; }; } & NamedStyles<...>'.
+  Property 'searchInput' is incompatible with index signature.
+    Object literal may only specify known properties, and 'outlineStyle' does not exist in type 'ViewStyle | TextStyle | ImageStyle'.
+clinicianadmin/ClinicDashboardScreen.tsx(61,18): error TS2345: Argument of type '() => Promise<void>' is not assignable to parameter of type 'EffectCallback'.
+  Type 'Promise<void>' is not assignable to type 'void | (() => void) | undefined'.
+common/auth/OTPScreen.tsx(592,5): error TS2345: Argument of type '{ container: { flex: number; backgroundColor: string; }; gradientBg: { position: "absolute"; left: 0; right: 0; top: 0; bottom: 0; }; gradientLayer1: { backgroundColor: string; position: "absolute"; left: 0; right: 0; top: 0; bottom: 0; }; ... 36 more ...; submitButtonText: { ...; }; }' is not assignable to parameter of type '{ container: { flex: number; backgroundColor: string; }; gradientBg: { position: "absolute"; left: 0; right: 0; top: 0; bottom: 0; }; gradientLayer1: { backgroundColor: string; position: "absolute"; left: 0; right: 0; top: 0; bottom: 0; }; ... 36 more ...; submitButtonText: { ...; }; } & NamedStyles<...>'.
+  Property 'otpBox' is incompatible with index signature.
+    Object literal may only specify known properties, and 'outlineStyle' does not exist in type 'ViewStyle | TextStyle | ImageStyle'.

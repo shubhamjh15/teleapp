@@ -1,0 +1,7 @@
+from typing import AsyncGenerator
+from app.db.session import SessionLocal
+
+# Postgres Dependency
+async def get_db() -> AsyncGenerator:
+    async with SessionLocal() as db:
+        yield db
