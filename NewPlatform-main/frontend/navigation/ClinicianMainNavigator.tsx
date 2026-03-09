@@ -16,10 +16,10 @@ import { ClinicianReportScreen }            from '../clinician/ClinicianReportSc
 import { ClinicianReportPreviewScreen }       from '../clinician/ClinicianReportPreviewScreen';
 import { ClinicianScheduleScreen }           from '../clinician/ClinicianScheduleScreen';
 import { ClinicianAppointmentsScreen }      from '../clinician/ClinicianAppointmentsScreen';
-import { ClinicianPatientsScreen }      from '../clinician/ClinicianPatientsScreen';
-import { ClinicianPaymentsScreen }      from '../clinician/ClinicianPaymentsScreen';
-import { ClinicianMessagesScreen }      from '../clinician/ClinicianMessagesScreen';
-import { ClinicianProductsScreen }      from '../clinician/ClinicianProductsScreen';
+import { ClinicianPatientsScreen }         from '../clinician/ClinicianPatientsScreen';
+import { ClinicianPaymentsScreen }            from '../clinician/ClinicianPaymentsScreen';
+import { ClinicianMessagesScreen }         from '../clinician/ClinicianMessagesScreen';
+import { ClinicianProductsScreen }         from '../clinician/ClinicianProductsScreen';
 import { ClinicianSettingsScreen }      from '../clinician/ClinicianSettingsScreen';
 import ClinicianReportsScreen from '../clinician/ClinicianReportsScreen';
 
