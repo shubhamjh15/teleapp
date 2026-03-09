@@ -11,11 +11,11 @@ import { ClinicianMainStackParamList } from './types';
 
 import { ClinicianDashboardScreen }     from '../clinician/ClinicianDashboardScreen';
 import { ClinicianSessionsScreen }        from '../clinician/ClinicianSessionsScreen';
-import { ClinicianConsultationScreen }  from '../clinician/ClinicianConsultationScreen';
-import { ClinicianReportScreen }        from '../clinician/ClinicianReportScreen';
-import { ClinicianReportPreviewScreen } from '../clinician/ClinicianReportPreviewScreen';
-import { ClinicianScheduleScreen }      from '../clinician/ClinicianScheduleScreen';
-import { ClinicianAppointmentsScreen }  from '../clinician/ClinicianAppointmentsScreen';
+import { ClinicianConsultationScreen }    from '../clinician/ClinicianConsultationScreen';
+import { ClinicianReportScreen }            from '../clinician/ClinicianReportScreen';
+import { ClinicianReportPreviewScreen }       from '../clinician/ClinicianReportPreviewScreen';
+import { ClinicianScheduleScreen }           from '../clinician/ClinicianScheduleScreen';
+import { ClinicianAppointmentsScreen }      from '../clinician/ClinicianAppointmentsScreen';
 import { ClinicianPatientsScreen }      from '../clinician/ClinicianPatientsScreen';
 import { ClinicianPaymentsScreen }      from '../clinician/ClinicianPaymentsScreen';
 import { ClinicianMessagesScreen }      from '../clinician/ClinicianMessagesScreen';
