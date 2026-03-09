@@ -10,7 +10,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { ClinicianMainStackParamList } from './types';
 
 import { ClinicianDashboardScreen }     from '../clinician/ClinicianDashboardScreen';
-import { ClinicianSessionsScreen }      from '../clinician/ClinicianSessionsScreen';
+import { ClinicianSessionsScreen }        from '../clinician/ClinicianSessionsScreen';
 import { ClinicianConsultationScreen }  from '../clinician/ClinicianConsultationScreen';
 import { ClinicianReportScreen }        from '../clinician/ClinicianReportScreen';
 import { ClinicianReportPreviewScreen } from '../clinician/ClinicianReportPreviewScreen';
